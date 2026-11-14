@@ -1,0 +1,53 @@
+{
+  "name": "dsh-card-panel",
+  "version": "1.0.0",
+  "description": "DSH 无限量日卡面板：粘贴中转站发货信息即可写入模型配置，实时显示用量、到期倒计时与官方价对比，并一键修复上下文窗口截断",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "assets/icon.png",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "day-card",
+    "relay",
+    "usage",
+    "billing",
+    "new-api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengpei/dsh-card-panel.git"
+  },
+  "homepage": "https://github.com/fengpei/dsh-card-panel#readme",
+  "bugs": {
+    "url": "https://github.com/fengpei/dsh-card-panel/issues"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
+}
