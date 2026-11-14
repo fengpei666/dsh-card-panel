@@ -36,11 +36,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fengpei/dsh-card-panel.git"
+    "url": "git+https://github.com/fengpei666/dsh-card-panel.git"
   },
-  "homepage": "https://github.com/fengpei/dsh-card-panel#readme",
+  "homepage": "https://github.com/fengpei666/dsh-card-panel#readme",
   "bugs": {
-    "url": "https://github.com/fengpei/dsh-card-panel/issues"
+    "url": "https://github.com/fengpei666/dsh-card-panel/issues"
   },
   "files": [
     "lib",

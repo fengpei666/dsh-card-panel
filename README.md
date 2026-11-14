@@ -97,7 +97,7 @@ dsh plugin --profile web add dsh-card-panel
 从 GitHub 直接装：
 
 ```bash
-dsh plugin --profile desktop add github:fengpei/dsh-card-panel
+dsh plugin --profile desktop add github:fengpei666/dsh-card-panel
 ```
 
 本地开发（软链，改代码立即生效）：
