@@ -1,6 +1,6 @@
 {
   "name": "dsh-card-panel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DSH 无限量日卡面板：粘贴中转站发货信息即可写入模型配置，实时显示用量、到期倒计时与官方价对比，并一键修复上下文窗口截断",
   "type": "module",
   "main": "lib/index.js",
